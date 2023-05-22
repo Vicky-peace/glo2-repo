@@ -1,0 +1,75 @@
+:root{
+    --base01: #434343;
+    --base02: #515151;
+    --base03: #666;
+    --base04: #818181;
+    --base05: #a4a4a4;
+    --base06: #c8c8c8;
+    --base07: #e3e3e3;
+    --base08: #fea3aa;
+    --base09: #d83bd2;
+    --base0A: #8ecdff;
+    --base0B: #fecc1b;
+    --base0C: #3defe9;
+    --base0D: #8ecdff;
+    --base0E: #faadfa;
+    --base0F: #a4a4a4;
+}
+
+.home{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   background-color: var(--base06);
+   background: cover;
+   margin-top: 20px;
+   border-radius: 10px;
+  
+}
+.home-left{
+    flex: 1;
+    text-align: center;
+}
+.circular-image{
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+    /* border-radius: 50%; */
+    border-radius: 20px;
+}
+.home-right{
+    
+    flex: 2;
+}
+.home-right p{
+   margin-bottom: 80px;
+}
+.home-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+.home-description{
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .home {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 60px;
+      /* Add other styles for small screens */
+    }
+    .circular-image{
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+    }
+    .home .home-left{
+        margin-bottom: 20px;
+    }
+}

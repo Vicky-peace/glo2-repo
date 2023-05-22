@@ -1,0 +1,39 @@
+.topics-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.topics-left,
+.topics-right {
+  flex-basis: 45%;
+  margin-bottom: 2rem;
+}
+.topics-left p,
+.topics-right p {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  /* Add styles for the paragraphs */
+}
+.topics-left,
+.topics-right{
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+/* blogs.css */
+
+@media screen and (max-width: 600px) {
+    .topics-left,
+    .topics-right {
+      flex-basis: 100%;
+    }
+    
+    .topics-left p,
+    .topics-right p {
+      text-align: center;
+    }
+  }
+  

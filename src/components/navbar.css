@@ -1,0 +1,44 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:gainsboro ;
+    height: 60px;
+    padding-right: 50px;
+    text-decoration: none;
+    top: 0;
+    
+    
+}
+.nav-brand{
+    margin: 10px;
+    padding: 5px;
+    color: rgb(61, 35, 35);
+}
+.nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 170px;
+    gap: 15px;
+    text-decoration: none;
+
+}
+.navlinks li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navlinks li a:hover {
+   background-color: #646cff;
+    color: #1a1a1a;
+    border-radius: 5px;
+  }

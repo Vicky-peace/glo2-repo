@@ -1,0 +1,61 @@
+/* about.css */
+
+.about-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 80px;
+    /* Add other styles as needed */
+  }
+  
+  .about-main-left {
+    flex: 1;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Add other styles for the image */
+  }
+  
+  .about-main-right {
+    border: 1px solid gainsboro;
+    flex: 1;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .about-main p {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    /* Add styles for the paragraph */
+  }
+  @media only screen and (max-width: 767px) {
+    .about-main {
+      flex-direction: column;
+      align-items: flex-start;
+      /* Add other styles for small screens */
+    }
+  
+    .about-main-left,
+    .about-main-right {
+      flex: none;
+      width: 100%;
+    }
+  
+    .about-main-right {
+      margin-top: 1rem;
+      max-width: 100%;
+    }
+    .about-main-left{
+        margin-bottom: 10px;
+    }
+   
+  
+    /* Add any other necessary styles for small screens */
+  }
